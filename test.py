@@ -3,7 +3,7 @@ from ultralytics import YOLO
 
 # 1. Load your custom model
 # Ensure 'best.pt' is in the same folder as this script!
-model = YOLO("best2.pt")
+model = YOLO("yolo11n.pt")
 
 # 2. Open the default camera (0 is usually the laptop webcam)
 cap = cv2.VideoCapture(0)
