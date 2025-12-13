@@ -1,9 +1,13 @@
 # COPY THIS CODE BLOCK PER BLOCK IN GOOGLE COLAB AND RUN IN BLOCK PER BLOCK
 
 # BLOCK CODE 1
-!pip install ultralytics roboflow
+# Make sure you have change your run time to GPU
+!nvidia-smi
 
 # BLOCK CODE 2
+!pip install ultralytics roboflow
+
+# BLOCK CODE 3
 from google.colab import drive
 from ultralytics import YOLO
 from roboflow import Roboflow
